@@ -1,0 +1,105 @@
+.artikel .container{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.artikel .breadcrumb{
+    background-color: transparent !important;
+    padding-left: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.artikel .breadcrumb-item{
+    font-family: 'Source Sans Pro';
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    color: #7b7b7b;
+}
+
+.artikel h1{
+    font-family: 'Source Sans Pro';
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: #707070;
+}
+
+.artikel .space-title{
+    width: 420px;
+    margin-left: 0;
+}
+
+.artikel li{
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.43;
+    color: #707070;
+}
+
+.artikel li i{
+    padding-right: 6.8px;
+}
+
+.artikel .btn-danger, .artikel .btn-outline-danger{
+    width: 200px;
+    margin-right: 15px;
+}
+
+.artikel button img{
+    padding-right: 6.4px;
+}
+
+.artikel h6{
+    margin-top: 30px;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    line-height: 1.5;
+    color: #707070;  
+}
+
+.artikel p{
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.63;
+    color: #434343;
+}
+
+.matrik{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.matrik h5{
+    font-family: 'Source Sans Pro';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.25;
+    color: #707070;
+}
+
+.matrik h3{
+    font-family: 'Source Sans Pro';
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 1.44;
+    color: #707070;  
+}
+
+.matrik .abstrak{
+    margin-bottom: 16px;
+}
+
+.matrik h6{
+    font-family: 'Source Sans Pro';
+    font-size: 12px;
+    line-height: 1.5;
+    color: #707070;
+    padding-right: 10%;
+    margin-bottom: 23px;
+    margin-top: 0;
+}
