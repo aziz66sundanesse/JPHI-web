@@ -29,6 +29,8 @@
 
 
  .main-nav .btn-outline-secondary{
+    padding-right: 23px;
+    padding-left: 23px;
     font-family: 'Source Sans Pro';
     font-size: 10px;
     font-weight: 600;
@@ -38,11 +40,19 @@
     border-color: #dadadb !important;
  }
 
+ .main-nav .input-group{
+     width: 100%;
+ }
+
  .main-nav input , .main-nav .input-group-text{
     font-family: 'Source Sans Pro';
     font-size: 10px;
     line-height: 1.4;
     color: #7b7b7b !important;
+    background-color: #edebeb;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-color: #edebeb; ;
  }
 
  .sub-nav .nav-link{
@@ -53,6 +63,11 @@
     text-align: left;
     color: #9b9b9b !important;
     
+}
+
+.main-nav .form-control{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 
