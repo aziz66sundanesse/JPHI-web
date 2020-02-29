@@ -4,7 +4,7 @@
 }
 
 .sub-nav{
-    padding-left: 10%;
+    padding-left: 35%;
 }
 
 .popular-search {
@@ -20,8 +20,18 @@ padding-right: 7%;
     visibility: hidden;
 } */
 
-.title-epidemiology h3{
-    margin-top: 85px;
+.title-searchResult h2{
+    margin-top: -40px;
+    font-family: 'Source Sans Pro';
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.46;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.title-searchResult h3{
+    margin-top: 95px;
     font-family: 'Source Sans Pro';
     font-size: 24px;
     font-weight: 600;
@@ -29,11 +39,7 @@ padding-right: 7%;
     color: #707070;
 }
 
-.title-epidemiology p{
-    font-family: 'Source Sans Pro';
-    font-size: 14px;
-    color: #707070;
-}
+
 
 .filter-epidemiology {
     margin-top: -30px;

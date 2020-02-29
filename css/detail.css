@@ -1,3 +1,18 @@
+.navbar{
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16) !important;
+    margin-bottom: 3px;
+}
+
+.sub-nav{
+    padding-left: 10%;
+}
+
+
+.popular-search {
+    display:none;
+}
+
+
 .artikel .container{
     padding-left: 0;
     padding-right: 0;
@@ -67,6 +82,7 @@
     font-weight: 300;
     line-height: 1.63;
     color: #434343;
+    margin-bottom: 50px;
 }
 
 .matrik{

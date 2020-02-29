@@ -1,4 +1,17 @@
 /* ################### HEADER ################# */
+.navbar-light .navbar-nav .active>.nav-link{
+    font-family: 'Source Sans Pro';
+    font-size: 10px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7b7b7b !important;
+    /* border-bottom: 1px solid black; */
+}
+
 .main-nav .nav-link{
     font-family: 'Source Sans Pro';
     font-size: 10px;
@@ -38,6 +51,7 @@
     letter-spacing: 0.2px;
     color: #b9b9ba !important;
     border-color: #dadadb !important;
+    margin-left: 18px;
  }
 
  .main-nav .input-group{
