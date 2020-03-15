@@ -141,3 +141,90 @@
     margin-bottom: 23px;
     margin-top: 0;
 }
+
+#user-review{
+    margin-bottom: 60px;
+}
+
+.user-review h4{
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2b2a2a;
+}
+
+.user-review {
+    background-color: #edebeb;
+    /* padding: 21px; */
+    /* border-top: 1px solid #707070; */
+    /* border-bottom: 1px solid #707070; */
+}
+
+.user-review-title{
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2b2a2a;
+}
+
+.user-review .user{
+    font-family: 'Source Sans Pro';
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e42c1a;
+}
+
+.user-review .date{
+    font-family: 'Source Sans Pro';
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: left;
+    color: #434343;
+}
+
+.user-review p{
+    font-family: 'Source Sans Pro';
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8b8b8b;
+    margin-bottom: 0;
+    padding-bottom: 21px;
+}
+
+.user-review p,  .user-review .user{
+    padding-left: 21px;
+    padding-right: 21px;
+}
+
+.user-review ul{
+   padding-top: 16px;
+}
+
+.user-review hr{
+    margin: 0;
+}
+
