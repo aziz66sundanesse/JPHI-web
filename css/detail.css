@@ -26,12 +26,15 @@
 }
 
 .artikel .breadcrumb-item{
-    font-family: 'Source Sans Pro';
-    font-size: 10px;
-    font-weight: 300;
-    line-height: 1.4;
-    letter-spacing: 0.2px;
-    color: #7b7b7b;
+    font-family: 'Source Sans Pro';  
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: 0.24px;
+    text-align: left;
+    color: #e42c1a;
 }
 
 .artikel h1{
@@ -69,11 +72,22 @@
 }
 
 .artikel h6{
-    margin-top: 30px;
     font-family: 'Source Sans Pro';
     font-size: 16px;
     line-height: 1.5;
     color: #707070;  
+}
+
+.artikel .p-biblio{
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2b2a2a;
+    margin-bottom: 0;
 }
 
 .artikel p{
@@ -83,6 +97,14 @@
     line-height: 1.63;
     color: #434343;
     margin-bottom: 50px;
+}
+
+.artikel .biblio{
+    margin-top: 30px;
+}
+
+.artikel .abstrak{
+    margin-top: 12px;
 }
 
 .matrik{

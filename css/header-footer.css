@@ -30,6 +30,23 @@
     color: #707070;
 }
 
+.main-nav .img-profil{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.main-nav .btn-profil{
+    font-family: 'Source Sans Pro';
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: 0.24px;
+    text-align: left;
+    color: #707070;
+}
+
 .main-nav .btn-join-us{
     font-family: 'Source Sans Pro';
     font-size: 10px;

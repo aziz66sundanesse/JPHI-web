@@ -75,7 +75,7 @@ body{
     font-size: 10px;
     font-weight: 600;
     line-height: 1.3;
-    color: #e42c1a !important;
+    color: #edebeb !important;
     margin-bottom: auto;
 }
 
@@ -84,7 +84,7 @@ body{
     font-size: 10px;
     font-weight: normal;
     line-height: 1.3;
-    color: #e42c1a !important;
+    color: #edebeb !important;
 }
 /* 
 .landing .co-md-2{
@@ -117,7 +117,7 @@ body{
     font-weight: bold;
     line-height: 1.46;
     text-align: left;
-    color: #000000 !important;
+    color: #e42c1a !important;
 }
 
 .new-entry button{

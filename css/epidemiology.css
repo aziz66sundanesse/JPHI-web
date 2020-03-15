@@ -19,9 +19,21 @@ padding-right: 7%;
 /* #popular-search li{
     visibility: hidden;
 } */
+.title-epidemiology H5{
+    margin-top: 85px;
+    font-family: 'Source Sans Pro';
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: 0.24px;
+    text-align: left;
+    color: #e42c1a;
+}
+
 
 .title-epidemiology h3{
-    margin-top: 85px;
     font-family: 'Source Sans Pro';
     font-size: 24px;
     font-weight: 600;
