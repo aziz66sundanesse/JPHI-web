@@ -74,8 +74,14 @@
 .artikel h6{
     font-family: 'Source Sans Pro';
     font-size: 16px;
+    font-weight: 600;
     line-height: 1.5;
-    color: #707070;  
+    text-align: left;
+    color: #2b2a2a;
+}
+
+.artikel #annotated{
+    margin-top: 44px;
 }
 
 .artikel .p-biblio{
@@ -105,6 +111,42 @@
 
 .artikel .abstrak{
     margin-top: 12px;
+}
+
+.artikel ul .annotated{
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: right;
+    color: #434343;
+}
+
+.artikel ul .user{
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: right;
+    color: #e42c1a;
+}
+
+.artikel ul .institusi{
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: right;
+    color: #2b2a2a;
 }
 
 .matrik{
