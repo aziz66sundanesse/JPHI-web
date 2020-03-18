@@ -65,6 +65,7 @@
 .artikel .btn-danger, .artikel .btn-outline-danger{
     width: 200px;
     margin-right: 15px;
+    margin-top: 27px;
 }
 
 .artikel button img{
@@ -111,6 +112,10 @@
 
 .artikel .abstrak{
     margin-top: 12px;
+}
+
+.artikel ul{
+    margin-bottom: 0;
 }
 
 .artikel ul .annotated{
