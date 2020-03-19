@@ -3,8 +3,13 @@
     z-index: -1;
 }
 
+.jumbotron img{
+    height: 25.7%;
+    margin-top: -90px;
+}
+
 .add-annotation{
-    margin-top: -170px;
+    margin-top: -270px;
 }
 
 .add-annotation h3{
@@ -16,7 +21,7 @@
     line-height: 1.46;
     letter-spacing: normal;
     text-align: left;
-    color: #ffffff;
+    color: #ef494b;
 }
 
 .add-annotation .form-annotation{
@@ -30,6 +35,7 @@
 
 .add-annotation label{
     padding-left: 30px;
+    color: #ef494b;
 }
 
 .add-annotation .btn-danger{
