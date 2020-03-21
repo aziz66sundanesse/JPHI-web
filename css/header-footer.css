@@ -20,17 +20,76 @@ body{
 }
 
 .main-nav .form-inline{
-    width: 30%;
+    width: 48%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 #search-main-nav{
     margin-right: 4.2% !important;
-    width: 45%; 
+    width: 40%; 
 }
 
 .main-nav img{
     margin-right: 1.5%;
 }
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.main-nav .dropdown-annotated .dropdown-menu{
+    /* opacity: 0.95; */
+    box-shadow: 3px 3px 4px 0 rgba(0, 0, 0, 0.17);
+    background-color: #353d5f;
+}
+
+.main-nav .dropdown-img-profil .dropdown-menu{
+    opacity: 0.75;
+    box-shadow: 3px 3px 4px 0 rgba(0, 0, 0, 0.12);
+    background-color: #fafafa;
+}
+
+.main-nav .dropdown-annotated .dropdown-item{
+    font-family: 'Source Sans Pro';
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: 0.36px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.main-nav .dropdown-img-profil .dropdown-item{
+    font-family: 'Source Sans Pro';
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: 0.36px;
+    text-align: left;
+    color: #353d5f;
+}
+
+.main-nav .dropdown-annotated .dropdown-divider{
+    margin-left: 15%;
+    margin-right: 15%;
+    marg
+}
+
+.main-nav .dropdown-img-profil .dropdown-divider{
+    margin-left: 15%;
+    margin-right: 15%;
+    marg
+}
+
+.main-nav .dropdown-annotated .dropdown-item:hover{
+    color: black;
+}
+
 
 .sub-nav {
     box-shadow: none;
