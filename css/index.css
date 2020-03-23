@@ -9,6 +9,12 @@ body{
     margin-right: 0 !important;
 }
 
+.main-nav .btn-join-us{
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 1%;
+}
+
 .sub-nav{
     padding-left: 3% !important;
 }
