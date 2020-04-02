@@ -219,6 +219,14 @@ body{
 .dropdown-menu .fab, .dropdown-menu .fas{
     margin-right: 3px;
 }
+
+.dropdown.share .dropdown-menu{
+    min-width: 0;
+}
+
+.dropdown.share a{
+    margin-bottom: 0;
+}
 /* end share dropdown */
 
 .page-link{
