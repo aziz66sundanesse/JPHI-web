@@ -159,7 +159,6 @@ body{
     letter-spacing: 0.6px;
     text-align: left;
     color: #ffffff;
-    margin-right: 2%;
 }
 
 
@@ -174,6 +173,11 @@ body{
     color: #32a4ce !important;
     border-color: #32a4ce !important;
     margin-left: 18px;
+ }
+
+ .main-nav .btn-outline-secondary:hover{
+     background-color: #ef494b;
+     color: white !important;
  }
 
  .main-nav .input-group{
