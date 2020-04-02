@@ -215,6 +215,12 @@ body{
 
 /* ###################### END HEADER ################################## */
 
+/* share dropdown */
+.dropdown-menu .fab, .dropdown-menu .fas{
+    margin-right: 3px;
+}
+/* end share dropdown */
+
 .page-link{
     background-color: #f5f6f7 !important;
 }
