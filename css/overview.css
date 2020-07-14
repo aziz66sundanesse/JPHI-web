@@ -88,3 +88,66 @@ section img{
     text-align: left;
     color: #2c2b2b;
 }
+
+.term-of-service .guide .tos-people img{
+    width: 300px;
+}
+
+.term-of-service .guide h3{
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ef494b;
+    margin-top: 80px;
+}
+
+.term-of-service .tos-join img {
+    width: 240px;
+}
+
+.term-of-service .tos-login img{
+    width: 175px;
+}
+
+.term-of-service .guide{
+    margin-top: 40px;
+}
+/* breakpoint mobile responsive */
+@media (max-width:576px){
+    .sub-nav .container .navbar-toggler{
+        display: none;
+    }
+
+    .sub-nav .navbar-nav{
+        flex-direction: row;
+    }
+
+    .sub-nav #navbarSupportedContent{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .sub-nav .nav-item{
+        margin-left: 8px;
+    }
+
+    .overview{
+        margin-top: 71px;
+    }
+
+    .overview p{
+        font-size: 20px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: left;
+        color: #353d5f;
+    }
+
+}
