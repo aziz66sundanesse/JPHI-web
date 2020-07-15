@@ -89,11 +89,11 @@ section img{
     color: #2c2b2b;
 }
 
-.term-of-service .guide .tos-people img{
+.guide .tos-people img{
     width: 300px;
 }
 
-.term-of-service .guide h3{
+.guide h3{
     font-size: 24px;
     font-weight: 600;
     font-stretch: normal;
@@ -105,17 +105,30 @@ section img{
     margin-top: 80px;
 }
 
-.term-of-service .tos-join img {
+.tos-join img {
     width: 240px;
 }
 
-.term-of-service .tos-login img{
+.tos-login img{
     width: 175px;
 }
 
-.term-of-service .guide{
+.guide{
     margin-top: 40px;
 }
+
+.tos-join{
+    margin-top: 40px;
+    margin-bottom: 65px;
+}
+
+.tos-login{
+    margin-top:40px ;
+    margin-bottom: 60px;
+}
+
+
+
 /* breakpoint mobile responsive */
 @media (max-width:576px){
     .sub-nav .container .navbar-toggler{
@@ -150,4 +163,34 @@ section img{
         color: #353d5f;
     }
 
+    .guide h3{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.2;
+        color: #ef494b;
+    }
+
+    .guide .guide2{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.2;
+        color: #ef494b;
+    }
+
+    .guide .tos-people img{
+        width: 100%;
+    }
+
+    .tos-join img{
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .tos-login img{
+        width: 100%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
 }
