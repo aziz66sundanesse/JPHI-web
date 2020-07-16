@@ -293,83 +293,91 @@ footer hr{
 
 /* breakpoint mobile responsive */
 
-.landing .media-body h5{
-    font-size: 12px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    text-align: left;
-    color: #68b4d0;
-}
+@media (max-width:576px){
 
-.landing .media-body h1{
-    font-size: 40px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
-}
+    
+    .landing .media-body h5{
+        font-size: 12px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #68b4d0;
+    }
+    
+    .landing .media-body h1{
+        font-size: 40px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+    }
+    
+    .landing-title {
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        margin-top: 23px;
+    }
+    
+    .jumbotron{
+        background-image: url(/img/landing-index.png);
+        height: 700px;
+    }
+    
+    .d-flex h6{
+        text-align: center;
+        width: 100%;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        color: #edebeb;
+    }
+    
+    .d-flex h6 span{
+        font-weight: 600;
+    }
+    
+    .new-entry button{
+        display: none;
+    }
+    
+    .new-entry h3{
+        font-size: 32px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.34;
+        letter-spacing: normal;
+        text-align: left;
+        color: #32a4ce;
+    }
+    
+    .new-entry a{
+        font-size: 24px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #111c4a;
+    }
 
-.landing-title {
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
-    margin-top: 23px;
-}
-
-.jumbotron{
-    background-image: url(/img/landing-index.png);
-    height: 700px;
-}
-
-.d-flex h6{
-    text-align: center;
-    width: 100%;
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    color: #edebeb;
-}
-
-.d-flex h6 span{
-    font-weight: 600;
-}
-
-.new-entry button{
-    display: none;
-}
-
-.new-entry h3{
-    font-size: 32px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.34;
-    letter-spacing: normal;
-    text-align: left;
-    color: #32a4ce;
-}
-
-.new-entry a{
-    font-size: 24px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    text-align: left;
-    color: #111c4a;
+    .read-more .align-items-end{
+        width: 100%;
+    }
 }
