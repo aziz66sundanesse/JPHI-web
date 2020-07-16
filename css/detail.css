@@ -295,7 +295,167 @@
 }
 
 /* breakpoint mobile responsive */
-.artikel .space-title{
-    width: 100%;
-}
 
+@media (max-width:576px){
+
+    
+    .artikel .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .artikel .w-30{
+        width: 100% !important;
+    }
+    
+    .artikel .space-title{
+        width: 100%;
+    }
+    
+    .artikel h1{
+        font-size: 28px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.21;
+        letter-spacing: normal;
+        text-align: left;
+        color: #353d5f;
+    }
+    
+    .artikel .d-flex{
+        display: inline !important;
+    }
+    
+    .artikel li{
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.31;
+        letter-spacing: normal;
+        text-align: left;
+        color: #2c2b2b;
+    }
+    
+    .artikel .ml-auto{
+        margin-right: auto !important;
+        margin-top: 15px;
+    }
+    
+    .artikel ul .user ,.artikel ul .annotated ,.artikel ul .institusi{
+        text-align: left;
+        line-height: 1.31;
+    }
+    
+    .annotated .abstrak h6{
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: left;
+        color: #353d5f;
+    }
+    
+    .user-review-title{
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: left;
+        color: #353d5f;
+    }
+    
+    .user-review .date{
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.31;
+        letter-spacing: normal;
+        text-align: left;
+        color: #7b7b7b;
+      }
+    
+    
+      .user-review p span{
+        font-size: 16px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #353d5f;
+      }
+    
+    .user-review p{
+        font-size: 16px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.38;
+        letter-spacing: normal;
+        text-align: left;
+        color: #2c2b2b;
+    }
+    
+    .matrik {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .matrik h6 , .matrik .abstrak{
+        display: none;
+    }
+    
+    /* .order-2{
+        order: 0 !important;
+    } */
+    
+    /* .matrik h3{
+        display: inline;
+        margin-top: 20px;
+    }
+    
+    .matrik i{
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .matrik i{
+        position: absolute;
+    } */
+
+    .artikel .btn-danger{
+        width: 146px;
+    }
+
+    .artikel .btn-outline-danger{
+        width: 146px;
+    }
+
+    .artikel .p-biblio{
+        padding-left: 0 !important;
+        margin-bottom: 30px;
+    }
+
+    .artikel h6{
+
+        font-size: 20px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: left;
+        color: #353d5f;
+    }
+
+
+    
+
+}    
