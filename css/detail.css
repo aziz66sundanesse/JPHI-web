@@ -455,7 +455,53 @@
         color: #353d5f;
     }
 
+    .artikel .m-matrik{
+        display: flex !important;
+    }
+
+    .artikel h5{
+        font-size: 12px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ef494b;
+    }
+
+    .artikel .m-matrik h3{
+        font-size: 34px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.35;
+        letter-spacing: normal;
+        text-align: left;
+        color: #707070;
+      
+    }
+
+    .matrik hr, .matrik h5, .matrik i, .matrik h3{
+        display: none;
+    }
+
 
     
 
-}    
+}   
+
+/* breakpoint dekstop */
+@media (min-width:1140px){
+    .artikel h5{
+        display: none;
+    }
+
+    .artikel .m-matrik {
+        display: none !important;
+    }
+
+    .hr-mobile{
+        display: none;
+    }
+}
