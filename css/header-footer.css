@@ -384,6 +384,18 @@ footer h3{
           margin-left:20px;
       }
 
+      .nav-profil img{
+        width: 50px;
+      }
+
+      .main-nav .navbar-brand img{
+          margin-right: 55px !important;
+      }
+
+      .navbar-toggler{
+          border: 0 !important;
+      }
+
     
 
 
