@@ -120,6 +120,15 @@ body{
     padding-right: 0 !important;
 } */
 
+.main-search .lap-pen button{
+    margin-bottom: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius: 20px;
+    background-color: #dc3545;
+}
+
 .main-search{
     margin-top: 35px;
 }
